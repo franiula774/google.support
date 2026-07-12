@@ -25,10 +25,20 @@ body {
 
 <input placeholder="E-mail"><br><br>
 <input type="password" placeholder="Hasło"><br><br>
-
-<button onclick="alert('To jest tylko symulacja. Dane nie zostały zapisane.')">
+<button onclick="naprawa()">
 Zaloguj
 </button>
+
+<p id="wynik"></p>
+
+<script>
+function naprawa(){
+document.getElementById("wynik").innerHTML =
+"✅ Naprawa zakończona!";
+}
+</script>
+
+
 
 </div>
 
